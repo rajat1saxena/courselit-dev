@@ -24,9 +24,8 @@ import type { AppDispatch, AppState } from "state-management";
 import { Address, AppMessage, Auth } from "common-models";
 import { FetchBuilder } from "utils";
 import { actionCreators } from "state-management";
-import { setAppMessage } from "state-management/dist/action-creators";
 
-const { networkAction } = actionCreators;
+const { networkAction, setAppMessage } = actionCreators;
 
 const AppLoader = dynamic(() => import("../app-loader"));
 
