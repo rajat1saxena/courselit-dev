@@ -16,14 +16,14 @@ import {
   MEDIA_FILE_TYPE,
 } from "../../../ui-config/strings";
 import { connect } from "react-redux";
-import { Section } from "@courselit/components-library";
+import { Section } from "components-library";
 import { FileCopy } from "@mui/icons-material";
-import { AppMessage } from "@courselit/common-models";
-import type { AppDispatch, AppState } from "@courselit/state-management";
-import type { Address, Media } from "@courselit/common-models";
-import { FetchBuilder } from "@courselit/utils";
-import { actionCreators } from "@courselit/state-management";
-import { Image } from "@courselit/components-library";
+import { AppMessage } from "common-models";
+import type { AppDispatch, AppState } from "state-management";
+import type { Address, Media } from "common-models";
+import { FetchBuilder } from "utils";
+import { actionCreators } from "state-management";
+import { Image } from "components-library";
 
 const { networkAction, setAppMessage } = actionCreators;
 

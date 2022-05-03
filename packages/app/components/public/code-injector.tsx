@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import { AppState } from "@courselit/state-management";
+import { AppState } from "state-management";
 
 interface CodeInjectorProps {
   codeForHead?: string;

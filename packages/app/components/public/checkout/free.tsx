@@ -3,11 +3,11 @@ import { Button } from "@mui/material";
 import { ENROLL_BUTTON_TEXT } from "../../../ui-config/strings";
 import { connect } from "react-redux";
 import { useRouter } from "next/router";
-import { actionCreators } from "@courselit/state-management";
-import type { Address, Auth, Course } from "@courselit/common-models";
-import { AppMessage } from "@courselit/common-models";
-import type { AppDispatch, AppState } from "@courselit/state-management";
-import { FetchBuilder } from "@courselit/utils";
+import { actionCreators } from "state-management";
+import type { Address, Auth, Course } from "common-models";
+import { AppMessage } from "common-models";
+import type { AppDispatch, AppState } from "state-management";
+import { FetchBuilder } from "utils";
 
 const { networkAction, setAppMessage } = actionCreators;
 

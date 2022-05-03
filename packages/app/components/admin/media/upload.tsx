@@ -2,18 +2,18 @@ import React, { useState, createRef, useEffect } from "react";
 import { styled } from "@mui/material/styles";
 import { Button, Grid, TextField, Typography, Checkbox } from "@mui/material";
 import { connect } from "react-redux";
-import { Section } from "@courselit/components-library";
+import { Section } from "components-library";
 import {
   BUTTON_ADD_FILE,
   MEDIA_UPLOAD_BUTTON_TEXT,
   MEDIA_UPLOADING,
   MEDIA_PUBLIC,
 } from "../../../ui-config/strings";
-import { AppMessage } from "@courselit/common-models";
-import type { Auth, Address } from "@courselit/common-models";
-import { FetchBuilder } from "@courselit/utils";
-import type { AppDispatch, AppState } from "@courselit/state-management";
-import { actionCreators } from "@courselit/state-management";
+import { AppMessage } from "common-models";
+import type { Auth, Address } from "common-models";
+import { FetchBuilder } from "utils";
+import type { AppDispatch, AppState } from "state-management";
+import { actionCreators } from "state-management";
 import { responses } from "../../../config/strings";
 
 const { networkAction, setAppMessage } = actionCreators;

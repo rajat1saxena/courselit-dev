@@ -2,9 +2,9 @@ import React, { useRef, useState, useEffect } from "react";
 import { styled } from "@mui/material/styles";
 import { connect } from "react-redux";
 import { Grid, Typography, Link, TextField, Button } from "@mui/material";
-import { FetchBuilder } from "@courselit/utils";
-import { actionCreators } from "@courselit/state-management";
-import { AppMessage } from "@courselit/common-models";
+import { FetchBuilder } from "utils";
+import { actionCreators } from "state-management";
+import { AppMessage } from "common-models";
 import {
   APP_MESSAGE_THEME_APPLIED,
   APP_MESSAGE_THEME_COPIED,
@@ -22,10 +22,10 @@ import {
   SUBHEADER_THEME_INSTALLED_THEMES,
 } from "../../../../ui-config/strings";
 import { THEMES_REPO } from "../../../../ui-config/constants";
-import { Section } from "@courselit/components-library";
+import { Section } from "components-library";
 import ThemeItem from "./theme-item";
-import type { Address } from "@courselit/common-models";
-import type { AppDispatch, AppState } from "@courselit/state-management";
+import type { Address } from "common-models";
+import type { AppDispatch, AppState } from "state-management";
 
 const { setAppMessage, networkAction } = actionCreators;
 

@@ -1,22 +1,22 @@
 import React, { useEffect, useState } from "react";
 import { styled } from "@mui/system";
 import PropTypes from "prop-types";
-import { FetchBuilder } from "@courselit/utils";
+import { FetchBuilder } from "utils";
 import {
   LESSON_TYPE_VIDEO,
   LESSON_TYPE_AUDIO,
   LESSON_TYPE_PDF,
 } from "../../ui-config/constants";
 import { connect } from "react-redux";
-import { actionCreators } from "@courselit/state-management";
+import { actionCreators } from "state-management";
 import { Typography, Grid } from "@mui/material";
 import {
   ENROLL_IN_THE_COURSE,
   NOT_ENROLLED_HEADER,
 } from "../../ui-config/strings";
-import { Section, RichText as TextEditor } from "@courselit/components-library";
-import type { Lesson, Auth, Profile, Address } from "@courselit/common-models";
-import type { AppDispatch, AppState } from "@courselit/state-management";
+import { Section, RichText as TextEditor } from "components-library";
+import type { Lesson, Auth, Profile, Address } from "common-models";
+import type { AppDispatch, AppState } from "state-management";
 
 const { networkAction } = actionCreators;
 

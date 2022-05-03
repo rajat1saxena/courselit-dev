@@ -1,4 +1,4 @@
-import { generateUniqueId } from "@courselit/utils";
+import { generateUniqueId } from "utils";
 import mongoose from "mongoose";
 
 export interface User {

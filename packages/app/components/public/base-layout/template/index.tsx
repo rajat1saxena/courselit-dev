@@ -4,8 +4,8 @@ import { Grid, useTheme } from "@mui/material";
 import { useRouter } from "next/router";
 import Section from "./section";
 import { connect } from "react-redux";
-import { AppState } from "@courselit/state-management";
-import { Layout } from "@courselit/common-models";
+import { AppState } from "state-management";
+import { Layout } from "common-models";
 
 const PREFIX = "Template";
 

@@ -1,4 +1,4 @@
-import { generateUniqueId } from "@courselit/utils";
+import { generateUniqueId } from "utils";
 import mongoose from "mongoose";
 import constants from "../config/constants";
 const { transactionInitiated, transactionSuccess, transactionFailed } =

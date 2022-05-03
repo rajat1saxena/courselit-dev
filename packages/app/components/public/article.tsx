@@ -9,12 +9,12 @@ import {
   RichText as TextEditor,
   Section,
   Image,
-} from "@courselit/components-library";
+} from "components-library";
 import { FREE_COST } from "../../ui-config/strings";
 import dynamic from "next/dynamic";
 import constants from "../../config/constants";
-import { AppState } from "@courselit/state-management";
-import { Course, Profile, SiteInfo } from "@courselit/common-models";
+import { AppState } from "state-management";
+import { Course, Profile, SiteInfo } from "common-models";
 
 const { permissions } = constants;
 

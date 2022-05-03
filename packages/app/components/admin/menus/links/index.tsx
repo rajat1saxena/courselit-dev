@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Grid, Button } from "@mui/material";
 import { ADD_NEW_LINK_BUTTON } from "../../../../ui-config/strings";
-import { FetchBuilder } from "@courselit/utils";
+import { FetchBuilder } from "utils";
 import { connect } from "react-redux";
-import { actionCreators } from "@courselit/state-management";
+import { actionCreators } from "state-management";
 import dynamic from "next/dynamic";
-import type { AppDispatch, AppState } from "@courselit/state-management";
-import type { Auth, Address, Link } from "@courselit/common-models";
+import type { AppDispatch, AppState } from "state-management";
+import type { Auth, Address, Link } from "common-models";
 
 const { networkAction } = actionCreators;
 

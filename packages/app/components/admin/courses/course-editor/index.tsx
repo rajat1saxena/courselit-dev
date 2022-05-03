@@ -24,7 +24,7 @@ import {
   NEW_COURSE_PAGE_HEADING,
   EDIT_COURSE_PAGE_HEADING,
 } from "../../../../ui-config/strings";
-import { actionCreators } from "@courselit/state-management";
+import { actionCreators } from "state-management";
 import { formulateCourseUrl, checkPermission } from "../../../../ui-lib/utils";
 import Link from "next/link";
 import {
@@ -40,13 +40,13 @@ import {
   IconButton,
 } from "@mui/material";
 import { ArrowBack, Delete } from "@mui/icons-material";
-import { AppMessage } from "@courselit/common-models";
+import { AppMessage } from "common-models";
 import { MIMETYPE_IMAGE, permissions } from "../../../../ui-config/constants";
-import { FetchBuilder } from "@courselit/utils";
-import { Section, RichText as TextEditor } from "@courselit/components-library";
+import { FetchBuilder } from "utils";
+import { Section, RichText as TextEditor } from "components-library";
 import dynamic from "next/dynamic";
-import type { AppDispatch, AppState } from "@courselit/state-management";
-import type { Profile, Auth, Address } from "@courselit/common-models";
+import type { AppDispatch, AppState } from "state-management";
+import type { Profile, Auth, Address } from "common-models";
 import { EditorState } from "draft-js";
 
 const { networkAction, setAppMessage } = actionCreators;

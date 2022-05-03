@@ -10,14 +10,14 @@ import {
 } from "../../../ui-config/strings";
 import dynamic from "next/dynamic";
 import { getGraphQLQueryFields } from "../../../ui-lib/utils";
-import { FetchBuilder } from "@courselit/utils";
-import { AppMessage } from "@courselit/common-models";
+import { FetchBuilder } from "utils";
+import { AppMessage } from "common-models";
 import { connect } from "react-redux";
 import { useRouter } from "next/router";
-import { Section } from "@courselit/components-library";
-import type { Auth, Address } from "@courselit/common-models";
-import type { AppDispatch, AppState } from "@courselit/state-management";
-import { actionCreators } from "@courselit/state-management";
+import { Section } from "components-library";
+import type { Auth, Address } from "common-models";
+import type { AppDispatch, AppState } from "state-management";
+import { actionCreators } from "state-management";
 import { responses } from "../../../config/strings";
 
 const { networkAction, setAppMessage } = actionCreators;

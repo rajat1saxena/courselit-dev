@@ -7,13 +7,13 @@ import {
   ERROR_SIGNIN_GENERATING_LINK,
   SIGNIN_SUCCESS_PREFIX,
 } from "../ui-config/strings";
-import { Section } from "@courselit/components-library";
+import { Section } from "components-library";
 import { Grid, TextField, Button, Typography } from "@mui/material";
 import { useRouter } from "next/router";
-import type { Address, Auth, State } from "@courselit/common-models";
-import { AppMessage } from "@courselit/common-models";
+import type { Address, Auth, State } from "common-models";
+import { AppMessage } from "common-models";
 import { connect } from "react-redux";
-import { actionCreators } from "@courselit/state-management";
+import { actionCreators } from "state-management";
 import type { ThunkDispatch } from "redux-thunk";
 import type { AnyAction } from "redux";
 

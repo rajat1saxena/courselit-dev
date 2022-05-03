@@ -24,10 +24,10 @@ import {
   LABEL_GROUP_COLLAPSE,
 } from "../../../../ui-config/strings";
 import { ExpandMore, Add } from "@mui/icons-material";
-import { AppMessage } from "@courselit/common-models";
-import type { Group, Lesson } from "@courselit/common-models";
-import type { AppDispatch } from "@courselit/state-management";
-import { actionCreators } from "@courselit/state-management";
+import { AppMessage } from "common-models";
+import type { Group, Lesson } from "common-models";
+import type { AppDispatch } from "state-management";
+import { actionCreators } from "state-management";
 
 const PREFIX = "Group";
 

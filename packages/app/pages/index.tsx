@@ -4,9 +4,9 @@ import { Button, Grid, Typography } from "@mui/material";
 import Link from "next/link";
 import { getBackendAddress } from "../ui-lib/utils";
 import dynamic from "next/dynamic";
-import { Section } from "@courselit/components-library";
-import type { SiteInfo, State } from "@courselit/common-models";
-import { FetchBuilder } from "@courselit/utils";
+import { Section } from "components-library";
+import type { SiteInfo, State } from "common-models";
+import { FetchBuilder } from "utils";
 import MuiLink from "@mui/material/Link";
 
 const BaseLayout = dynamic(() => import("../components/public/base-layout"));

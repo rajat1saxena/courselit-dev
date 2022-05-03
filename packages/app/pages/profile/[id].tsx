@@ -1,4 +1,4 @@
-import { FetchBuilder } from "@courselit/utils";
+import { FetchBuilder } from "utils";
 import { Button, Grid, TextField, Typography } from "@mui/material";
 import {
   PROFILE_PAGE_HEADER,
@@ -15,13 +15,13 @@ import {
 import { connect } from "react-redux";
 import Link from "next/link";
 import { useState } from "react";
-import { actionCreators } from "@courselit/state-management";
+import { actionCreators } from "state-management";
 import { getBackendAddress } from "../../ui-lib/utils";
-import { Section } from "@courselit/components-library";
+import { Section } from "components-library";
 import dynamic from "next/dynamic";
-import { AppMessage } from "@courselit/common-models";
-import type { State } from "@courselit/common-models";
-import { AppDispatch } from "@courselit/state-management";
+import { AppMessage } from "common-models";
+import type { State } from "common-models";
+import { AppDispatch } from "state-management";
 
 const BaseLayout = dynamic(() => import("../../components/public/base-layout"));
 

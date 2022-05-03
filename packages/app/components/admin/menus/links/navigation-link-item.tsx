@@ -25,11 +25,11 @@ import {
 } from "../../../../ui-config/constants";
 import { Done, Delete } from "@mui/icons-material";
 import { connect } from "react-redux";
-import { FetchBuilder } from "@courselit/utils";
-import { AppMessage } from "@courselit/common-models";
-import type { Address, Auth, Link } from "@courselit/common-models";
-import type { AppDispatch, AppState } from "@courselit/state-management";
-import { actionCreators } from "@courselit/state-management";
+import { FetchBuilder } from "utils";
+import { AppMessage } from "common-models";
+import type { Address, Auth, Link } from "common-models";
+import type { AppDispatch, AppState } from "state-management";
+import { actionCreators } from "state-management";
 
 const { networkAction, setAppMessage } = actionCreators;
 

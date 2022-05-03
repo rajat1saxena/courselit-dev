@@ -4,16 +4,16 @@ import { loadStripe } from "@stripe/stripe-js";
 import { ENROLL_BUTTON_TEXT } from "../../../ui-config/strings";
 import { connect } from "react-redux";
 import { useRouter } from "next/router";
-import type { AppState, AppDispatch } from "@courselit/state-management";
+import type { AppState, AppDispatch } from "state-management";
 import {
   Address,
   AppMessage,
   Auth,
   Course,
   SiteInfo,
-} from "@courselit/common-models";
-import { FetchBuilder } from "@courselit/utils";
-import { actionCreators } from "@courselit/state-management";
+} from "common-models";
+import { FetchBuilder } from "utils";
+import { actionCreators } from "state-management";
 
 const { networkAction, setAppMessage } = actionCreators;
 

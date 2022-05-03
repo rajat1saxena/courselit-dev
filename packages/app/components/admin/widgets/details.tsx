@@ -1,9 +1,9 @@
 import React from "react";
-import { FetchBuilder } from "@courselit/utils";
+import { FetchBuilder } from "utils";
 import { useTheme } from "@mui/material";
 import { connect } from "react-redux";
-import type { Address } from "@courselit/common-models";
-import type { AppState } from "@courselit/state-management";
+import type { Address } from "common-models";
+import type { AppState } from "state-management";
 
 interface Component {
   caption: string;

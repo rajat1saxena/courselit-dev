@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
-import { OverviewAndDetail } from "@courselit/components-library";
+import { OverviewAndDetail } from "components-library";
 import { WIDGETS_PAGE_HEADER } from "../../../ui-config/strings";
 import widgets from "../../../ui-config/widgets";
 import { connect } from "react-redux";
 import { ImageListItemBar } from "@mui/material";
 import { useTheme } from "@mui/material";
-import { FetchBuilder } from "@courselit/utils";
+import { FetchBuilder } from "utils";
 import dynamic from "next/dynamic";
-import type { Address, Widget } from "@courselit/common-models";
-import type { AppDispatch, AppState } from "@courselit/state-management";
+import type { Address, Widget } from "common-models";
+import type { AppDispatch, AppState } from "state-management";
 
 const Img = dynamic(() => import("../../img"));
 

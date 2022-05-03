@@ -1,9 +1,9 @@
 import React, { SyntheticEvent } from "react";
 import { connect } from "react-redux";
 import { Snackbar, IconButton, Button } from "@mui/material";
-import { actionCreators } from "@courselit/state-management";
+import { actionCreators } from "state-management";
 import { Close } from "@mui/icons-material";
-import type { AppDispatch, AppState } from "@courselit/state-management";
+import type { AppDispatch, AppState } from "state-management";
 
 const { clearAppMessage } = actionCreators;
 

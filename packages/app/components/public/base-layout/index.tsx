@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import Head from "next/head";
 import Template from "./template";
 import Scaffold from "./scaffold";
-import type { AppState } from "@courselit/state-management";
+import type { AppState } from "state-management";
 
 interface MasterLayoutProps {
   title: string;

@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import constants from "../config/constants";
-import { generateUniqueId } from "@courselit/utils";
-import type { Group } from "@courselit/common-models";
+import { generateUniqueId } from "utils";
+import type { Group } from "common-models";
 
 export interface Course {
   domain: mongoose.Types.ObjectId;

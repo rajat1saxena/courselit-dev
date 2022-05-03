@@ -18,13 +18,13 @@ import {
   PURCHASE_ID_HEADER,
 } from "../../ui-config/strings";
 import Link from "next/link";
-import { Section } from "@courselit/components-library";
+import { Section } from "components-library";
 import dynamic from "next/dynamic";
-import type { AppDispatch, AppState } from "@courselit/state-management";
-import { Address, AppMessage, Auth } from "@courselit/common-models";
-import { FetchBuilder } from "@courselit/utils";
-import { actionCreators } from "@courselit/state-management";
-import { setAppMessage } from "@courselit/state-management/dist/action-creators";
+import type { AppDispatch, AppState } from "state-management";
+import { Address, AppMessage, Auth } from "common-models";
+import { FetchBuilder } from "utils";
+import { actionCreators } from "state-management";
+import { setAppMessage } from "state-management/dist/action-creators";
 
 const { networkAction } = actionCreators;
 

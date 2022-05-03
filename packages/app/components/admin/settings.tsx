@@ -45,14 +45,14 @@ import {
   BUTTON_SAVE,
   PAYMENT_METHOD_NAME_NONE,
 } from "../../ui-config/strings";
-import { FetchBuilder } from "@courselit/utils";
+import { FetchBuilder } from "utils";
 import { decode, encode } from "base-64";
 import dynamic from "next/dynamic";
-import { AppMessage } from "@courselit/common-models";
-import { Section } from "@courselit/components-library";
-import type { SiteInfo, Address, Auth } from "@courselit/common-models";
-import type { AppDispatch, AppState } from "@courselit/state-management";
-import { actionCreators } from "@courselit/state-management";
+import { AppMessage } from "common-models";
+import { Section } from "components-library";
+import type { SiteInfo, Address, Auth } from "common-models";
+import type { AppDispatch, AppState } from "state-management";
+import { actionCreators } from "state-management";
 
 const { networkAction, newSiteInfoAvailable, setAppMessage } = actionCreators;
 

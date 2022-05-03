@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { connect } from "react-redux";
-import { FetchBuilder } from "@courselit/utils";
+import { FetchBuilder } from "utils";
 import { Grid, Button } from "@mui/material";
 import { BTN_LOAD_MORE, FREE_COST } from "../../ui-config/strings";
-import type { AppDispatch, AppState } from "@courselit/state-management";
-import { actionCreators } from "@courselit/state-management";
+import type { AppDispatch, AppState } from "state-management";
+import { actionCreators } from "state-management";
 import type {
   Address,
   Course as CourseModel,
   SiteInfo,
-} from "@courselit/common-models";
-import { CourseItem } from "@courselit/components-library";
+} from "common-models";
+import { CourseItem } from "components-library";
 
 const { networkAction } = actionCreators;
 

@@ -1,6 +1,6 @@
 import React from "react";
 import dynamic from "next/dynamic";
-import { Course } from "@courselit/common-models";
+import { Course } from "common-models";
 
 const Article = dynamic(() => import("./public/article"));
 

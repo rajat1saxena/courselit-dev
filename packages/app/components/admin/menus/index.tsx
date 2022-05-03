@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Typography } from "@mui/material";
 import { HEADER_NAVIGATION } from "../../../ui-config/strings";
-import { Section } from "@courselit/components-library";
+import { Section } from "components-library";
 import dynamic from "next/dynamic";
 
 const NavigationLinks = dynamic(() => import("./links"));

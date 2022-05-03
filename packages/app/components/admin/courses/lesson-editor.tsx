@@ -36,14 +36,14 @@ import {
   MIMETYPE_AUDIO,
   MIMETYPE_PDF,
 } from "../../../ui-config/constants";
-import { FetchBuilder } from "@courselit/utils";
+import { FetchBuilder } from "utils";
 import { connect } from "react-redux";
-import { AppMessage } from "@courselit/common-models";
-import { Section, RichText as TextEditor } from "@courselit/components-library";
+import { AppMessage } from "common-models";
+import { Section, RichText as TextEditor } from "components-library";
 import dynamic from "next/dynamic";
-import type { AppDispatch, AppState } from "@courselit/state-management";
-import type { Auth, Lesson, Address } from "@courselit/common-models";
-import { actionCreators } from "@courselit/state-management";
+import type { AppDispatch, AppState } from "state-management";
+import type { Auth, Lesson, Address } from "common-models";
+import { actionCreators } from "state-management";
 
 const { networkAction, setAppMessage } = actionCreators;
 

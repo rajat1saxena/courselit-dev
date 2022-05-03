@@ -6,8 +6,8 @@ import {
   PAYMENT_METHOD_STRIPE,
 } from "../../../ui-config/constants";
 import dynamic from "next/dynamic";
-import { Course, SiteInfo } from "@courselit/common-models";
-import { AppState } from "@courselit/state-management";
+import { Course, SiteInfo } from "common-models";
+import { AppState } from "state-management";
 
 const Stripe = dynamic(() => import("./stripe"));
 const Free = dynamic(() => import("./free"));

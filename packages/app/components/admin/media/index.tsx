@@ -9,14 +9,14 @@ import {
   MEDIA_MANAGER_DIALOG_TITLE,
 } from "../../../ui-config/strings";
 import { Add } from "@mui/icons-material";
-import { OverviewAndDetail } from "@courselit/components-library";
+import { OverviewAndDetail } from "components-library";
 import dynamic from "next/dynamic";
-import { actionCreators } from "@courselit/state-management";
-import type { AppDispatch, AppState } from "@courselit/state-management";
+import { actionCreators } from "state-management";
+import type { AppDispatch, AppState } from "state-management";
 import { checkPermission } from "../../../ui-lib/utils";
-import { AppMessage } from "@courselit/common-models";
+import { AppMessage } from "common-models";
 import constants from "../../../config/constants";
-import type { Auth, Profile, Address, Media } from "@courselit/common-models";
+import type { Auth, Profile, Address, Media } from "common-models";
 const { permissions } = constants;
 
 const { networkAction, setAppMessage } = actionCreators;

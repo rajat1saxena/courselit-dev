@@ -4,7 +4,7 @@ import { CacheProvider, EmotionCache } from "@emotion/react";
 import CssBaseline from "@mui/material/CssBaseline";
 import createEmotionCache from "../ui-lib/create-emotion-cache";
 import { Provider, useStore } from "react-redux";
-import { store as wrapper } from "@courselit/state-management";
+import { store as wrapper } from "state-management";
 import { CONSOLE_MESSAGE_THEME_INVALID } from "../ui-config/strings";
 import {
   createTheme,
@@ -14,10 +14,10 @@ import {
 import defaultTheme from "../ui-config/default-theme";
 import { deepmerge } from "@mui/utils";
 import App from "next/app";
-import type { State } from "@courselit/common-models";
+import type { State } from "common-models";
 import { AnyAction } from "redux";
 import { ThunkDispatch } from "redux-thunk";
-import { actionCreators } from "@courselit/state-management";
+import { actionCreators } from "state-management";
 import CodeInjector from "../components/public/code-injector";
 import { DefaultTheme } from "@mui/private-theming";
 

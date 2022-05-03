@@ -6,13 +6,13 @@ import {
   LOAD_MORE_TEXT,
   HEADER_EDITING_USER,
 } from "../../../ui-config/strings";
-import { FetchBuilder } from "@courselit/utils";
+import { FetchBuilder } from "utils";
 import { connect } from "react-redux";
-import { OverviewAndDetail } from "@courselit/components-library";
+import { OverviewAndDetail } from "components-library";
 import dynamic from "next/dynamic";
-import type { AppDispatch, AppState } from "@courselit/state-management";
-import { actionCreators } from "@courselit/state-management";
-import type { Profile, User, Auth, Address } from "@courselit/common-models";
+import type { AppDispatch, AppState } from "state-management";
+import { actionCreators } from "state-management";
+import type { Profile, User, Auth, Address } from "common-models";
 
 const { networkAction } = actionCreators;
 

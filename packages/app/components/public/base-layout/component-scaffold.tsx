@@ -22,8 +22,8 @@ import Header from "./header";
 import { connect } from "react-redux";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import dynamic from "next/dynamic";
-import type { AppState } from "@courselit/state-management";
-import type { SiteInfo } from "@courselit/common-models";
+import type { AppState } from "state-management";
+import type { SiteInfo } from "common-models";
 
 const PREFIX = "ComponentScaffold";
 

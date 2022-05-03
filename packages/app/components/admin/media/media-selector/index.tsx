@@ -6,7 +6,7 @@ import {
 } from "../../../../ui-config/strings";
 import { Grid, Button, Typography } from "@mui/material";
 import dynamic from "next/dynamic";
-import { Image } from "@courselit/components-library";
+import { Image } from "components-library";
 
 const PREFIX = "MediaSelector";
 

@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import { connect } from "react-redux";
 import Router from "next/router";
-import { actionCreators } from "@courselit/state-management";
-import type { State, Address } from "@courselit/common-models";
-import { AppMessage } from "@courselit/common-models";
+import { actionCreators } from "state-management";
+import type { State, Address } from "common-models";
+import { AppMessage } from "common-models";
 import { UNABLE_TO_LOGOUT } from "../ui-config/strings";
 
 interface LogoutProps {

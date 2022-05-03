@@ -1,4 +1,4 @@
-import type { AppState } from "@courselit/state-management";
+import type { AppState } from "state-management";
 import React from "react";
 import { connect } from "react-redux";
 

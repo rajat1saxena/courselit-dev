@@ -1,10 +1,10 @@
 import { capitalize, Grid, Typography } from "@mui/material";
-import { FetchBuilder } from "@courselit/utils";
+import { FetchBuilder } from "utils";
 import { useRouter } from "next/router";
 import { getBackendAddress } from "../ui-lib/utils";
-import { Section } from "@courselit/components-library";
+import { Section } from "components-library";
 import dynamic from "next/dynamic";
-import { Course } from "@courselit/common-models";
+import { Course } from "common-models";
 
 const BaseLayout = dynamic(() => import("../components/public/base-layout"));
 const Items = dynamic(() => import("../components/public/items"));

@@ -20,11 +20,11 @@ import {
   PERM_WIDGETS,
 } from "../../../ui-config/strings";
 import { connect } from "react-redux";
-import { FetchBuilder } from "@courselit/utils";
-import type { AppDispatch, AppState } from "@courselit/state-management";
-import { actionCreators } from "@courselit/state-management";
-import { AppMessage } from "@courselit/common-models";
-import type { User, Auth, Address } from "@courselit/common-models";
+import { FetchBuilder } from "utils";
+import type { AppDispatch, AppState } from "state-management";
+import { actionCreators } from "state-management";
+import { AppMessage } from "common-models";
+import type { User, Auth, Address } from "common-models";
 
 const { networkAction, setAppMessage } = actionCreators;
 

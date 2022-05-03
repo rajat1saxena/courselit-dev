@@ -1,7 +1,7 @@
 import fetch from "isomorphic-unfetch";
 import { permissions } from "../ui-config/constants";
-import { RichText as TextEditor } from "@courselit/components-library";
-import type { Profile } from "@courselit/common-models";
+import { RichText as TextEditor } from "components-library";
+import type { Profile } from "common-models";
 
 export const queryGraphQL = async (
   url: string,

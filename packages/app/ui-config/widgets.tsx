@@ -4,7 +4,7 @@ import {
   TaggedContent,
   Branding,
   FooterMenu,
-} from "@courselit/common-widgets";
+} from "common-widgets";
 
 function loadWidgets(): Record<string, any> {
   const widgets: Record<string, any> = {};

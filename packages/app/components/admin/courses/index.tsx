@@ -22,17 +22,17 @@ import {
   LOAD_MORE_TEXT,
   SEARCH_TEXTBOX_PLACEHOLDER,
 } from "../../../ui-config/strings";
-import { FetchBuilder } from "@courselit/utils";
-import { Section, Image } from "@courselit/components-library";
+import { FetchBuilder } from "utils";
+import { Section, Image } from "components-library";
 import { checkPermission } from "../../../ui-lib/utils";
 import { Add, Search } from "@mui/icons-material";
 import constants from "../../../config/constants";
 const { permissions } = constants;
 import Link from "next/link";
-import type { Auth, Profile, Address } from "@courselit/common-models";
-import { AppMessage } from "@courselit/common-models";
-import type { AppDispatch, AppState } from "@courselit/state-management";
-import { actionCreators } from "@courselit/state-management";
+import type { Auth, Profile, Address } from "common-models";
+import { AppMessage } from "common-models";
+import type { AppDispatch, AppState } from "state-management";
+import { actionCreators } from "state-management";
 
 const { networkAction, setAppMessage } = actionCreators;
 

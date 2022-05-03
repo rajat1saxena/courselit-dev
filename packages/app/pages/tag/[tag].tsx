@@ -2,12 +2,12 @@ import {
   HEADER_BLOG_POSTS_SECTION,
   HEADER_TAG_SECTION,
 } from "../../ui-config/strings";
-import { FetchBuilder } from "@courselit/utils";
+import { FetchBuilder } from "utils";
 import { Grid, Typography } from "@mui/material";
 import { getBackendAddress } from "../../ui-lib/utils";
-import { Section } from "@courselit/components-library";
+import { Section } from "components-library";
 import dynamic from "next/dynamic";
-import { Course } from "@courselit/common-models";
+import { Course } from "common-models";
 import { useRouter } from "next/router";
 
 const BaseLayout = dynamic(() => import("../../components/public/base-layout"));

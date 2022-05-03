@@ -7,7 +7,7 @@ import { styled } from "@mui/system";
 import { Link, Grid, Typography } from "@mui/material";
 import dynamic from "next/dynamic";
 import { connect } from "react-redux";
-import type { AppState } from "@courselit/state-management";
+import type { AppState } from "state-management";
 
 const PREFIX = "Branding";
 

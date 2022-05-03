@@ -1,10 +1,10 @@
 import React from "react";
 import widgets from "../../../../ui-config/widgets";
-import { FetchBuilder } from "@courselit/utils";
+import { FetchBuilder } from "utils";
 import * as config from "../../../../ui-config/constants";
 import * as utilities from "../../../../ui-lib/utils";
 import { connect } from "react-redux";
-import type { AppState, AppDispatch } from "@courselit/state-management";
+import type { AppState, AppDispatch } from "state-management";
 import { FREE_COST } from "../../../../ui-config/strings";
 
 interface WidgetByNameProps {

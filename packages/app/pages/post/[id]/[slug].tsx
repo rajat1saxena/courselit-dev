@@ -2,9 +2,9 @@ import { connect } from "react-redux";
 import { formulateCourseUrl, getBackendAddress } from "../../../ui-lib/utils";
 import { Grid } from "@mui/material";
 import Head from "next/head";
-import { FetchBuilder } from "@courselit/utils";
-import type { SiteInfo, Address, Course } from "@courselit/common-models";
-import type { AppState } from "@courselit/state-management";
+import { FetchBuilder } from "utils";
+import type { SiteInfo, Address, Course } from "common-models";
+import type { AppState } from "state-management";
 import dynamic from "next/dynamic";
 
 const BaseLayout = dynamic(

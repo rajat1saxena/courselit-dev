@@ -9,14 +9,14 @@ import {
   COURSE_STRUCTURE_SELECT_LESSON,
   SECTION_GROUP_HEADER,
 } from "../../../../ui-config/strings";
-import { Section, RichText as TextEditor } from "@courselit/components-library";
+import { Section, RichText as TextEditor } from "components-library";
 import { connect } from "react-redux";
-import { FetchBuilder } from "@courselit/utils";
+import { FetchBuilder } from "utils";
 import { LESSON_TYPE_TEXT } from "../../../../ui-config/constants";
-import type { Auth, Address, Lesson } from "@courselit/common-models";
-import { AppMessage } from "@courselit/common-models";
-import type { AppDispatch, AppState } from "@courselit/state-management";
-import { actionCreators } from "@courselit/state-management";
+import type { Auth, Address, Lesson } from "common-models";
+import { AppMessage } from "common-models";
+import type { AppDispatch, AppState } from "state-management";
+import { actionCreators } from "state-management";
 
 const PREFIX = "CourseStructureEditor";
 

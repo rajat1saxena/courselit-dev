@@ -7,10 +7,10 @@ import {
 } from "../../../ui-lib/utils";
 import { Lock } from "@mui/icons-material";
 import { SIDEBAR_TEXT_COURSE_ABOUT } from "../../../ui-config/strings";
-import { FetchBuilder } from "@courselit/utils";
+import { FetchBuilder } from "utils";
 import dynamic from "next/dynamic";
-import type { AppState } from "@courselit/state-management";
-import { Address, Lesson, Profile, SiteInfo } from "@courselit/common-models";
+import type { AppState } from "state-management";
+import { Address, Lesson, Profile, SiteInfo } from "common-models";
 
 const CourseIntroduction = dynamic(
   () => import("../../../components/course-introduction")

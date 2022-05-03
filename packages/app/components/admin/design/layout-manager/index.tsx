@@ -17,14 +17,14 @@ import {
 import { useTheme } from "@mui/material";
 import { Add } from "@mui/icons-material";
 import { connect } from "react-redux";
-import { actionCreators } from "@courselit/state-management";
+import { actionCreators } from "state-management";
 import widgets from "../../../../ui-config/widgets";
-import { Section } from "@courselit/components-library";
-import { FetchBuilder } from "@courselit/utils";
+import { Section } from "components-library";
+import { FetchBuilder } from "utils";
 import dynamic from "next/dynamic";
-import type { Auth, Address, Profile, Layout } from "@courselit/common-models";
-import { AppMessage } from "@courselit/common-models";
-import type { AppDispatch, AppState } from "@courselit/state-management";
+import type { Auth, Address, Profile, Layout } from "common-models";
+import { AppMessage } from "common-models";
+import type { AppDispatch, AppState } from "state-management";
 
 const { networkAction, layoutAvailable, setAppMessage } = actionCreators;
 
