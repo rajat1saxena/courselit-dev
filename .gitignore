@@ -29,3 +29,9 @@ report*.json
 
 # OS specific files
 .DS_Store
+
+# Turborepo files
+.turbo
+build/**
+dist/**
+.next/**
